@@ -20,7 +20,7 @@ import os
 
 
 
-class SocialMediaApp(MDApp):
+class TomodoroApp(MDApp):
     
     def build(self):
         self.icon="icon.ico"
@@ -217,5 +217,5 @@ class SocialMediaApp(MDApp):
         
 
 if __name__=="__main__":
-    app=SocialMediaApp()
+    app=TomodoroApp()
     app.run()
